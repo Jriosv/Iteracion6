@@ -8,7 +8,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 import numpy as np
 
-from constants import TILES_DIR, NN_MODEL_PATH, FEN_CHARS, USE_GRAYSCALE
+from Iteracion6.constants import TILES_DIR, NN_MODEL_PATH, FEN_CHARS, USE_GRAYSCALE
 
 RATIO = 0.82    # ratio of training vs. test data
 N_EPOCHS = 20
